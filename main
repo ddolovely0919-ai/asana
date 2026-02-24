@@ -28,9 +28,9 @@
 
 <script>
 // --- 아사나 설정 ---
-const ASANA_PAT = '2/1199682850898820/1213402322064189:79f7ad195a92822fdcded9ad34df8752
+const ASANA_PAT = '
 ';
-const PROJECT_ID = '1208025586079071';
+const PROJECT_ID = ';
 
 async function loadDashboard() {
     const response = await fetch(`https://app.asana.com/api/1.0/projects/${PROJECT_ID}/tasks?opt_fields=name`, {
